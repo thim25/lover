@@ -14,4 +14,6 @@ document.getElementById("btnYes").onclick = function () {
   video.play();
   document.getElementById("myText").innerText = "I love you too❤️🫶";
   document.getElementById("myImage").style.display = "none";
+  document.getElementById("btnYes").style.display = "none";
+  document.getElementById("btnNo").style.display = "none";
 };
