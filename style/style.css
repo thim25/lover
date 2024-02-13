@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   background-color: #fff5e4;
+  font-family: courier;
 }
 
 .container {
@@ -26,6 +27,12 @@ section .btnYes {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   transition: all 0.5s ease;
+  color: rgb(255, 0, 0);
+}
+
+section .btnYes:hover {
+  color: black;
+  transition: all 0.1s ease-in-out;
 }
 
 section .btnNo {
@@ -41,8 +48,9 @@ section .btnNo {
 }
 
 section h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: courier;
   padding: 10px;
+  font-size: 25px;
 }
 
 section img {
