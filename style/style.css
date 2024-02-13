@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: #fff5e4;
 }
 
 .container {
@@ -36,6 +37,7 @@ section .btnNo {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   transition: all 0.5s ease;
+  color: white;
 }
 
 section h1 {
@@ -45,9 +47,23 @@ section h1 {
 
 section img {
   width: 200px;
+  border-radius: 15px;
 }
 
 .myVideo {
   width: 250px;
   display: none;
+}
+
+section .btnYess {
+  height: 30px;
+  width: 250px;
+  background-color: rgb(253, 5, 224);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.5s ease;
+  display: none;
+  color: white;
 }
